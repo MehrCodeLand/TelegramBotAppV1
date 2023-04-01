@@ -23,7 +23,7 @@ namespace TelegramBotAppV1
         static TelegramBotClient Bot = new TelegramBotClient("");
         static List<BotUpdate> BotUpdates = new List<BotUpdate>();
 
-        static string fileName = @"C:\Users\Mehrshad\update.json";
+        static string fileName = @"C:\Users\Mehrshad\update.json"; 
         public static void Main()
         {
             // Read All Saved File
